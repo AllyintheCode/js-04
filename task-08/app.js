@@ -1,8 +1,10 @@
-function fuk(reqem) {
-  let hasil = 1
-  for (let i = 1; i <= reqem; i++) {
-    hasil *= i
+function numCounter(text) {
+  let say = 0
+  for (let i = 0; i < text.length; i++) {
+    say++
+
   }
-  console.log(hasil)
+  return say;
+
 }
-fuk(5);
+console.log(numCounter("salam"));
